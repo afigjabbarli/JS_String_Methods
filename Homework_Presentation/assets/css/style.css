@@ -1,0 +1,70 @@
+@import url(./global.css);
+.cards{
+    border-radius: 25px;
+    background-color: white;
+    transition: ease 1s;
+}
+.cards .image{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards .text{
+    height: 350px;
+    width: 100%;
+    border-radius: 25px;
+    
+}
+.cards:hover{
+    transform: scale(1.2);
+    background-color: black;
+    
+}
+.image-1{
+    background-image: url(../medya/image/Screenshot\ 2023-06-19\ 050906.png);
+}
+.image-2{
+    background-image: url(../medya/image/2.png);
+}
+.image-3{
+    background-image: url(../medya/image/3.png);
+}
+.image-4{
+    background-image: url(../medya/image/4.png);
+}
+.image-5{
+    background-image: url(../medya/image/5.png);
+}
+.image-6{
+    background-image: url(../medya/image/6.png);
+}
+.image-7{
+    background-image: url(../medya/image/7.png);
+}
+.image-8{
+    background-image: url(../medya/image/8.png);
+}
+.image-9{
+    background-image: url(../medya/image/9.png);
+}
+.image-10{
+    background-image: url(../medya/image/10.png);
+}
+.title h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.title{
+    background-color: black;
+    border-radius: 25px;
+    border: 5px solid white;
+    width: 90%;
+    height: 100px;
+    margin: 25px auto;
+}
+    
